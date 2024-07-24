@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter';
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.alar{
+    width: 345.78px;
+    height: 24px;
+display: flex;
+align-items: center;
+justify-content: space-around;    
+}
+.logo_button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 256px;
+height: 36px;
+color: white;
+background: #FC004A;
+border: none;
+border-radius: 12px;
+cursor: pointer;    
+}
+.logo_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header{
+    padding: 30px;
+    width: 100%;
+
+border: 0px 0px 1px 0px;
+opacity: 0px;
+
+
+}
+.alar a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter';
+    display: inline-block;
+
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1 img{
+    width: 96%;
+    margin-top: 60px;
+}
+.bbb{
+    margin-top: 50px;
+}
+.card{
+
+    
+    width: 305px;
+height: 391px;
+box-shadow: 0px 4px 6px -4px #0000001A;
+gap: 13px;
+box-shadow: 0px 10px 15px -3px #0000001A;
+
+border-radius: 15px;
+
+display: flex;
+
+justify-content: center;
+flex-direction: column;
+
+padding-left: 15px;
+}
+.summa{
+    font-size: 18.28px;
+    color: #FC004A;
+}
+.card button{
+    width: 40px;
+height: 40px;
+border-radius: 15px;
+border: none;
+background-color: #FC004A;
+position: relative;
+left: 230px;
+cursor: pointer;
+bottom: 30px;
+}
+
+
+.cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+@media (max-width: 931px) {
+    .alar a {
+        display: none;
+    }
+
+    .alar{
+        display: none;
+    }
+    .logo_button button{
+        width: 100%;
+    height: 100px;
+    
+    }
+    .logo_button{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;        
+    }
+
+    .burger{
+        display: block;
+    }
+ 
+}
+   
+@media (max-width: 931px) {
+.bib{
+    display: none;
+}
+
+}
+   
+
+
+.burger{
+    display: none;
+}
+
+@media (max-width: 930px) {
+    .burger {
+        display: block;
+    }
+}
